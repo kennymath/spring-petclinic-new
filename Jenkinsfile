@@ -9,9 +9,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('Check versions') {
           steps {
-            sh 'maven --version'
+            sh 'java --version'
           }
         }
 
